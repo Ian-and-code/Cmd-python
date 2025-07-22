@@ -10,10 +10,10 @@ while comando == stop
             elif n % 2 == 0:
                     return"par"
             elif comando == "n es primo":
-                    while a == n:
+                    while a == (n - 1):
                         a = a + 1
-                        b = int(n / a)
-                        if type(b) = "int" :
+                        b = n % a
+                        if b != 0:
                             return "n no es primo"
                             break
                         
