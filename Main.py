@@ -1,5 +1,5 @@
 comando = str(input("cmd python:/main.py: ")
-commands = ["n es primo", "n es impar o par"]
+commands = ["n es impar o par"]
 a = 0
 while comando == stop
     if comando in commands:
@@ -9,13 +9,6 @@ while comando == stop
                     return "impar"
             elif n % 2 == 0:
                     return"par"
-            elif comando == "n es primo":
-                    while a == (n - 1):
-                        a = a + 1
-                        b = n % a
-                        if b != 0:
-                            return "n no es primo"
-                            break
                         
                         
         
